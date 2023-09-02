@@ -1,0 +1,14 @@
+Python
+Lenguaje interpretado con orientacion a objetos
+Interprete -> Software -> puede ser parte de un OS, anaconda, IDE, etc -> tiene su propia instalacion
+Puedo abrir python directamente desde el terminal y se abre en el IDE del sistema
+Ipython -> Si bien no es una IDE, incluye colores
+Scripts en python, es lo standard 
+IMPORTANTE: Aprender a usar un editor de texto en terminal
+
+Algunas IDEs:
+PyCharm: break points para debugear, verificar en que version de python corre
+Spider
+JupyterNotebook
+Eclipse
+VScode
