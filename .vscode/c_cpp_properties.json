@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\Users\patito\anaconda3\Lib\site-packages\scipy\_build_utils\gcc_build_bitness.py",
+            "intelliSenseMode": "windows-clang-x64",
+            "compilerArgs": [
+                " "
+            ],
+            "cppStandard": "c++23"
+        }
+    ],
+    "version": 4
+}
