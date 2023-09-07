@@ -10,7 +10,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\Users\patito\anaconda3\Lib\site-packages\scipy\_build_utils\gcc_build_bitness.py",
+            "compilerPath": "",
             "intelliSenseMode": "windows-clang-x64",
             "compilerArgs": [
                 " "
