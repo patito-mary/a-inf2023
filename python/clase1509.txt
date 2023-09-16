@@ -1,0 +1,47 @@
+CATEDRA ANTERIOR:
+Administradores de versiones:
+mergeado en git: reconoce los cambios que estan super puestos
+
+CATEDRA:
+Ideas claves:
+    - Lenguaje intepretado: instruccion por instruccion
+    - Autocontenido: Mas de un python ver en la misma pc
+    - Tipado dinamico de datos: declarar la variable con cierto 
+    atributo. a no es equivalente al contenido de a, a diferencia 
+    de C. Todas las cosas que se declaran en python tienen un tipo!! 
+    Todo lo que tiene un nombre (es decir esta definido) tiene un tipo
+Declaraciones:
+Se crean 2 cosas
+    Instancia: Realizacion en memoria de lo que yo quiero crear
+    Referencia: Tag de la instancia, es decir a en el notebook e.x.
+        Lista de referencias: se accede a traves de dir()
+        Todas las variables disponibles en la instancia aparecen
+        Es por decir a donde accede la funcion
+Que son los objetos?:
+El objeto es una instancia de la clase definida
+Las clases son templates que me permiten generar generalizaciones
+de tipos de datos, estos incluyen:
+    Atributos/Componentes: Se muestran usando el punto 
+    Metodos/Funciones: Son parte del dato y solo se activan cuando un dato
+    las llama
+    Operadores: Se pueden hasta redefinir
+    ## Hay alguna forma de que dir no muestre los ocultos?
+    Existen objetos que no tienen referencia!! por ejemplo
+    cuando se usan dentro de la misma funcion de print 
+Ideas claves:
+    - Una referencia no es equivalente a una instancia
+    - Las referencias apuntan a objetos > La referencia es el nombre
+    y la instancia es el contenido
+    POR ESO SE HACE .copy !!
+    - Metodos se acceden con PUNTOOOOO ..... !!!!! .  . . !
+    - Cada objeto tiene un id() : Direccion fisica donde se almacena
+
+
+Tipos compuestos:
+Tipo de dato: para ciertas cosas que hay en python que son analogo 
+a los que hay en un lenguaje de bajo nivel
+Por que compuestos? Clases o tipos de "tipos de objetos"
+- Listas: Agrupan objetos (cualquierrr cosa)
+- Tuplas:  Agrupaciones de objetos encapsuladas, sirve para hacer
+            viajar la informacion (ง︡'-'︠)ง
+
