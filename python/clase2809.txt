@@ -1,0 +1,33 @@
+CATEDRA
+Objeto instanciado: Es donde se aplica el metodo definido en la clase
+Parametro opcional: Por defecto, por ejemplo, si pongo r=0 y no agrego valor para r
+                    se rellena con un 0.
+La instancia conoce su propio metodo y se conoce a si mismo, por ende se llama
+De aqui viene el self, que dentro del constructor trabaja con los datos propios
+que almacena dentro de si mismo y queda guardado como plantilla
+
+@! "Podemos usar el atributo de una clase como metodo de la misma forma que podemos
+usar la funcion desde dentro de la clase para el objeto"
+Galleta.mostrar(galletita) == galletita.mostrar()
+
+Se pueden crear atributos dentro de la instancia dentro de una clase, pero esto
+no modifica la clase base. Solo sirve durante la instancia. 
+
+Self es una referencia a la instancia de la clase donde se corre!!
+Es muy importante para poder diferenciar entre las variables dentro de la clase, que
+solo pertenecen a la clase, y las variables del self que pertenecen a la instancia propia
+#Siempre se prioriza la instancia dentro de la referencia o nombre si son iguales
+
+Los metodos de clase se llaman como funcion cuando se usan en la instancia
+Hay dos formas de usar una clase desde otro programa, de tal forma que:
+1. import Cat : Importa solo lo que se vaya pidiendo en la instancia
+2. from Cat import * : Importa todo lo que este dentro de la clase, aunque no se vaya a 
+                        usar
+
+Entonces, las CLASES tienen INSTANCIAS, ATRIBUTOS(de datos), METODOS(de instancia),
+OTROS (metodos de clase y metodos estaticos [funciones metidas dentro de la clase]), 
+OTROS 2 (setters y getters)
+
+ATRIBUTOS PRIVADOS, Setters y Getters:
+Por ejemplo, axes de matplolib usa setters y getters. Esto es para evitar que el 
+codigo se rompa.

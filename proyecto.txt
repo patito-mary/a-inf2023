@@ -1,2 +1,0 @@
-IDEAS:
-Bot de discord que genere informacion diaria respecto al ADS
