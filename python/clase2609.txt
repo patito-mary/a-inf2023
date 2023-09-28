@@ -1,0 +1,27 @@
+CATEDRA
+axes = contenedor
+axis = 
+
+# import builtin : lista de todas las cosas que existen en python
+Cualquier cosa que se importe en python se transforma en un modulo ya que
+se puede acceder globalmente a el una vez instalada la libreria.
+ESPACIO DE NOMBRES: en python estan encapsulados, dentro de objetos
+                    tienen tiempo de vida y pueden desaparecer
+    > Esto nos define el SCOPE (ambito): Visibilidad del espacio de
+    nombre. Forma para buscar en los espacio de nombre. Las builtin
+    tienen prioridad
+    > Variables globales: Las instrucciones ejecutadas en el scope superior 
+    del intérprete (script o interactivo), se consideran parte del módulo 
+    __main__ , el cual define su propio espacio de nombres global.
+    # MAIN ES VARIABLE GLOBAL POR DEFECTO
+
+CLASES: 
+- paquetes de datos y funcionalidad
+- define un tipo de objeto nuevo y esto permite crear instancias al mismo
+- Las instancias son las realizaciones reales de los objetos que se crean 
+__init__ es el constructor !! cuando de inicia esta vacio
+
+TAREA: Mirar ejemplos, entenderlos y arreglarlos
+
+El __doc__ se rellena automaticamente con la triple comilla !! LOCURA 
+
