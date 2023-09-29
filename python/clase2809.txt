@@ -1,4 +1,4 @@
-CATEDRA
+CATEDRA 2.5 
 Objeto instanciado: Es donde se aplica el metodo definido en la clase
 Parametro opcional: Por defecto, por ejemplo, si pongo r=0 y no agrego valor para r
                     se rellena con un 0.

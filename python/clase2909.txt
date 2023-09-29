@@ -1,0 +1,28 @@
+CONTEXTO
+La programacion a objetos se centra en los sustantivos a diferencia de como pensamos que pensamos alrededor
+del verbo
+ex. imaginemos que tenemos un supermercado y queremos saber cuantas personas necesitamos para que cada persona 
+que compre se demore menos de dos minutos. La programacion orientada a objetos entrega un procedimiento en base
+a la cantidad de objetos que tengas, es decir abordamos el problema complejo desde la cantidad de objetos que
+pertenescan
+
+CATEDRA 2.5
+Metodos especiales: Se implementan automaticamente cuando se crea una clase
+ex. __len__ sirve para usar len dentro de la clase, definiendose el uso de len() como funcion
+ex. __str__ sirve para darle atributos especiales a la funcion print cuando se tenga una mezcla
+de tipo de datos. 
+
+Los operadores tambien se pueden modificiar usando los metodos especiales, por lo cual los operadores mas que
+operadores como tal son objetos tipo funcion
+
+Sobrecarga: Cuando se redefine una instruccion ya conocida por el lenguaje (metodo u operador)
+            - Sobrecargar la idexacion es muy util con __getitem__(self, index)
+
+Clases de datos: Clases iguales que las otras pero pensadas para almacenar variables cuyo tipo de datos se conoce
+                con anterioridad
+
+Herencia: La orientacion a objetos no es solo definir clases, si no tambien usar objetos para definir nuevos
+        objetos
+    - Se crean clases a traves de Herencia de otra clase anterioridad
+
+
