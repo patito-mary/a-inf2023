@@ -24,7 +24,7 @@ de tipos de datos, estos incluyen:
     Atributos/Componentes: Se muestran usando el punto 
     Metodos/Funciones: Son parte del dato y solo se activan cuando un dato
     las llama
-    Operadores: Se pueden hasta redefinir
+    Operadores: Se pueden hasta redefinir10
     ## Hay alguna forma de que dir no muestre los ocultos?
     Existen objetos que no tienen referencia!! por ejemplo
     cuando se usan dentro de la misma funcion de print 
