@@ -1,0 +1,44 @@
+CONTEXTO:
+Cuando usar herencia? cuando lo que construimos como propagacion del algortimo responde a el verbo to be
+Herencia: Podemos definir metodos vacios dentro de una clase, para poder usarlos mas adelante en la clase que hereda 
+dicha caracteristica, y se puede editar en la ‘subclase’
+CATEDRA: 
+- Funcion super
+Es la forma para conectar clases heredadas con la clase base
+Por que hacemos herencias?: Para poder extender una funcionalidad
+Rompe las reglas de python: si bien es una funcion y todo es un objeto, se trata como objeto
+Permite usar el constructor de la clase BASE llamandola sin tener que llamar al nombre que se 
+da en la clase originalmente haciendo: super().__init__(self, etc ,etc)
+La complejidad de llamar una variable dentro de la funcion que se define en la clase BASE hace necesario agregar la funcion super() 
+para poder acceder mas facilmente a ella en una clase heredada. 
+No hay un limite de herencia
+super() -> solo clase base
+A continuacion.. cosas derivadas de lo basico de orientacion a objetos que fue lo que
+vimos hasta ahora
+- Encapsulamiento (publico, privado o protegido)
+Generar estructuras virtuales que represente la realidad, cuando yo realizo una representacion
+virtual es necesario mantener la integridad de los objetos a traves del encapsulamiento
+Convencion: uso de guiones bajos para hacer cosas (NO ES NECESARIO QUE TERMINEN IGUAL)
+      Atributos protegidos: Son atributos para manejos solamento interno, es decir para sus 
+      clases o subclases. Se define con un guin bajo previo (_)
+      Atributos privados: Atributos que no deberian ser accedidos desde afuera de la clase. Se define con dos guiones bajo (__) y
+      python utiliza name mangling para dificultar su acceso 
+
+- Polimorfismo
+Para el caso de los objetos como tal, hablamos de un Ditto de progrmacion. Capacidad de los 
+objetos de tomar muchas formas, es decir cuando se parecen, pueden ser iguales
+ - Funciones y objetos
+ - Metodos de clase
+
+- Herencia Multiple
+Cuando se crean muchas subclases derivandonse de si mismas y de una base, el uso de super()
+se complica. Por ello en python se define el method resolution order (mro) y asi saber la JERARQUIA de las clases
+
+- Objetos compuestos
+Para el caso de objetos que TIENEN una caracteristica dentro de un objeto. Por ejemplo motor dentro de auto
+
+        = PILARES DE LA PROGRAMACION A OBJETOS —
+— Abstraccion —- Encapsulamiento —- Herencia —- Polimorfismo —
+     
+### TAREA: Estudiar iterador y generador en python
+que son? para que? cuando se usa? como implementa uno? 
