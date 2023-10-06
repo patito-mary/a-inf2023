@@ -1,0 +1,41 @@
+CONTEXTO:
+Tamos atrasados 2 clases con el programa pero estaba previsto
+
+CATEDRA: Software design
+
+Algoritmo: Instrucciones con coherencia y orden
+Aunque programemos con orientacion a objetos NO PODEMOS SALTARNOS LOS ALGORITMOS
+como por la misma naturaleza de la programacion de orientacion a objetos, pareciera no ser lineal
+pero, en realidad esque la base no es lineal (apunta a los sustantivos) pero, cuando se tiene claro
+el objetivo si lo es.
+Un programa/algoritmo siempre tiene vias de comunicacion
+    > input/output INFORMACION
+    > procesos INSTRUCCIONES
+Principios del design: mejorar la calidad del Software
+    > DRY: Don’t Repeat Yourself
+    > KISS: Keep it Simple and Stupid - No complicar las cosas
+    > RTFM 
+Pseudocodigo: es versatil de acuerdo al idioma de la persona y el lenguaje de programacion
+            - Arboles de decision
+Diagrama de flujo: forma grafica del pseudocodigo
+Para que sirve hacer diagramas de flujos de codigos que ya estan hechos?
+    - Identificar partes del calculo que consumen mas tiempo
+    - Procedimientos mal llamados
+    - Niveles de anidacion de bucles
+    - Flujo optimizable
+
+Principios SOLID (sugeridos para POO):
+    - Responsabilidad unica
+    - Principio Abierto/Cerrado: Los atributos internos deben ser caracteristicas propias que ojala
+    no se accedan desde afuera
+    - Sustitucion de Liskov: Se sustiye una clase del programa con una clase heradada de la misma clase
+    que queremos sustituir
+    - Segregacion de interfaces: Para que cada cambio sea independiente de la interfaz final
+    - Inversion de la dependencia: Pensar en que cada vez que se agrega una dependencia de una clase
+    dentro de otra, la abstraccion sea lo maximo posible para hacer las especifaciones a traves de las 
+    herencias y no tener que modificar todo el codigo
+
+UML (Unified Modeling Language): Diagrama de clases es el mas utilizado de UML
+    - flechas vacias: herencias
+    - rombos vacios: agregar componentes temporales
+    - rombos llenos: composicion

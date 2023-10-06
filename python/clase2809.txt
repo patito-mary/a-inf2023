@@ -1,5 +1,5 @@
 CATEDRA 2.5 
-Objeto instanciado: Es donde se aplica el metodo definido en la clase
+    Objeto instanciado: Es donde se aplica el metodo definido en la clase
 Parametro opcional: Por defecto, por ejemplo, si pongo r=0 y no agrego valor para r
                     se rellena con un 0.
 La instancia conoce su propio metodo y se conoce a si mismo, por ende se llama
@@ -11,7 +11,7 @@ usar la funcion desde dentro de la clase para el objeto"
 Galleta.mostrar(galletita) == galletita.mostrar()
 
 Se pueden crear atributos dentro de la instancia dentro de una clase, pero esto
-no modifica la clase base. Solo sirve durante la instancia. 
+no modifica la clase base. Solo sirve durante la instancia.   
 
 Self es una referencia a la instancia de la clase donde se corre!!
 Es muy importante para poder diferenciar entre las variables dentro de la clase, que
