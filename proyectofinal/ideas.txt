@@ -1,3 +1,6 @@
 Hacer uso de clases para desarrollar herramientas que permitan acceeder a distintas "estructuras de datos"
 de manera intuitiva a pesar que hayan objetos con 2 etiquetas distintas como los merger trees
 Deberia llevar setters y getters mi codigo??? chan
+
+##
+
