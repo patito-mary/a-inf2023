@@ -1,0 +1,62 @@
+CONTEXTO: 
+Revisar ejemplo de supermercado clase anterior
+
+CATEDRA: Documentacion de software
+La documentacion se vuelve mas importante mientras mas dificil es el algoritmo y mientras
+mas alto sea el nivel
+El yo del futuro tiene que entender lo que hice jaja lol
+# eficiencia, amor propio, amor a los demas
+
+Mas alla de los detalles de implementacion, la usuaria del codigo necesita saber
+como va a funcionar el codigo en el momento de usarlo, y sus diferentes partes.
+# Nosotros somos usuarios y desarrolladores
+
+Que se deberia documentar?
+# Mientras mejor este la documentacion final, mas personas utilizaran el software
+Software final (documentacion externa): manuales, sitios web, wikis, tutoriales 
+    MUST
+    - Obtencion del software
+    - Instalaion
+    - Uso y limitaciones
+Codigo fuente (documentacion interna): tecnicismos
+    MUST
+    - archivos y modulos creados
+    - clases (No hacer clases sin documentacion)
+    - funciones y metodos
+    - objetos claves!
+
+Buenas practicas: Es bueno establecerlas desde el principio
+Actualizacion: modificacion de la documentacion a medida que se modifica el codigo
+Claridad: Simple y Claridad
+Consistencia: Estilo igual para la documentacion, profundidad igual para toda la 
+documentacion
+Objetividad: Justificar el codigo
+
+Documentacion del codigo fuente:
+Cada vez que se invierta tiempo en desarrollar una idea, siguiendo tutoriales o 
+inspiracion, poner un comentario importante > BLOQUES DE CODIGO
+Describir cuales atributos, metodos o objetos fueron creados para una clase y dicho 
+proposito > CLASES
+Cuales son los metodos mas importantes de las clases tipo overview, ejemplo de uso, 
+parametros de entradas, limitaciones > FUNCIONES/METODOS
+
+Como se espera una buena documentacion:
+def sum(a, b):
+    """
+    Suma dos numeros reales y devuelve el resultado
+    
+    Parametros: 
+    - a (int/float): Primer numero
+    - b (int/float): Segundo numero
+
+    Return:
+    Suma de a y b en (int/float)
+    """
+
+Herramientas documentacion codigo:
+Hace un manual o web a partir de los documentos y comenta
+rios del codigo fuente
+- Doxygen: noventero
+- Sphinx: Hecho para python REVISAR MANUAL
+
+
