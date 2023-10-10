@@ -1,0 +1,20 @@
+CATEDRA
+Como se organizan las librerias?
+header: contextualizacion de la libreria
+compilado: ejecutable generado por C una vez que se corre codigo
+Esto implica que no es necesario pasar el 'codigo base' de un programa funcional para compartirlo
+Las librerias tienen .so o punto a.
+Las estaticas terminan en punto a. > punto c compilado transformado en libreria .a y funciona de tal manera
+                                    que se incluye dentro del codigo y no es necesario acceder a mas cosas
+Las shared terminan en punto so o dll > son librerias que una vez que se corre el codigo deben ser llamadas
+                                    por el ejecutable
+
+Que pasa si me descargo mi propio gcc? Van a faltar librerias xdxdx, es decir son ejecutables dependientes
+
+Sintaxis en C: preprocesador   
+Son instrucciones previas al compilado y analisis semantico del codigo. Hay 3 tipos de instrucciones:
+y pueden estar en cualquier parte!!!
+1. #include : incorpora librerias
+2. #define : es un 'buscar y reemplazar'
+3. #ifdef, #ifndef, #endif, #else : Permiten condicionar la compilacion segun identificadores definidos
+Para el 3. >> usando define

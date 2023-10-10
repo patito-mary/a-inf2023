@@ -1,0 +1,51 @@
+RECAPITULACION
+Para que sirve cada cosa? 
+    MPI > libreria para hacer correr cosas en paralelo
+    Hay cosas que estan solo en C y fortran sobre todos las cosas de red
+    bajo nivel en GPU > CUDA, OpenCL
+    TSL, Ruby
+    Lenguajes desarrollo machine learning > LISP
+    Python con R > Estandares opensource ciencia de datos (R no es un lenguaje como tal, ya que se hizo para estadistica)
+    C dentro de Python con Cython
+    JAVA lenguaje interpretado > virtual machine trae cosas para hacer ventanas bonitas
+
+CATEDRA CLASE ANTERIOR:
+Arrays y memoria estatica 
+Se parecen a python pero no son lo mismo
+    python > indexacion
+    C > solo corchetes ajhjshja 
+Meterle numeritos a los arrays en C en con doble loop, si te gusta la topologia entonces hacer una funcion bilineal que 
+lleve de un espacio a otro
+Punteros y memoria dinamica:
+El entero se puede interpretar como yo quiera si tengo el puntero!!
+C no reclama por las barbaridades
+Memoria dinamica:
+    Para acceder a la memoria dinamica antes habia que hacer una cosa rara, pero con el puntero ahora es directo
+    malloc (instruccion barbarica): 'Sistema operativo dame esta cantidad de memoria para lo que yo quiero'
+# Recordar x++ o x+=1
+
+TAREA: MAKEFILE
+makefile sirve para dar instrucciones y compilar muchos archivos necesario para correr un programa
+en particular para C. Da instrucciones en bash dentro de un archivo por eso se llama makefile que sirvan
+para compilar muchos programas de manera automatica a partir de un solo archivo
+#pregunta: cuando aparece facundo??
+
+CATEDRA:
+Programas de bajo nivel: 
+    Vienen con muchos archivos que hay que compilar para que funcione una libreria
+Por ello se genera la necesidad de hacer un Makefile (asi se escribe :c)
+Manual de make:
+    sintaxis: 
+    objetivos ... : dependencias ...
+        recetas
+        ...
+        #objetivos: nombre del archivo a crear o el nombre de la acion a definir
+        #dependencias: archivos necesario para crear el archivo
+        #receta: comandos a ejecutar para ejecutar la regla
+    Es importante que lleve el tab!
+    
+
+
+
+
+
