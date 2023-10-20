@@ -1,0 +1,37 @@
+CONTEXTO: vamos a ver cosas que debimos haber visto pero nunca se conversaron 
+
+CATEDRA:
+Representacion digital de los numeros
+Representacion en base 10 en la vida real
+En las computadoras esta representado en base binaria, es decir en base 2
+La unica forma de almacenar datos es diciendo si los transitores tienen carga o no (2 valores)
+    Por ello, la unidad minima de almacenamiento es bits (binario)
+    Dado que el traspaso de decima potencia a binario se hace a traves de operaciones matematicas de
+    division constante, lo que se hace es contar la cantidad de coeficientes a que van sobrando para
+    agregar al valor en binario
+
+Numeros enteros:
+> int clasico de precision simple: - 32 bits
+                                   - 0 000 0000 0000 0000 0000 0000 0000 = -2^31, 2^31, se reserva un espacio 
+                                   para el signo, tenemos 31 espacios en memoria para variar
+> long int precision doble:        - 64 bits
+> unsigned int: se come el espacio para el signo y quedan todos positivos
+
+Numeros flotantes:
+en el caso de 32 bits, M x 2^N: 
+   0   0000 0000  00000000000000000000000 
+signo  N = 8 bits      M = 23 bits
+número máximo ((1–2^{–24}) 2^{128} ≈ 3.402 x 10^{38} ) y mínimo ( 2^{–126} ≈ 1.175 x 10^{–38} ) a representar.
+
+Consideraciones: - Errores de redondeo
+                 - Se define un epsilon donde ya es lo suficientemente pequeño para que un objeto sea igual a 
+                 otro
+                 - La representacion decimal en la pantalla no necesariamente es precisa al numero que busco 
+                 usar
+                 - caracteres y arrays de caracteres tienen su forma en binario
+
+ES IMPORTANTE SABER COMO GUARDAR LOS DATOS PARA NO PERDER INFORMACION!!!
+no es lo mismo hablar en ascii que en binario o hdf5
+
+
+

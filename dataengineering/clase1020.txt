@@ -1,0 +1,28 @@
+CATEDRA 
+Obligacion de pensar en los datos que estamos trabajando!
+> almacenamiento
+    - Disco duro dura 5 años solamente! recordemos que es una agujita
+> composicion
+    - header de los fits horribles
+    - vectores para encontrar los espectros en un multislit
+    - las cosas que se almacenan en los fits son el problema de todos los datos!
+    - que unidades tiene una tabla? 
+    - datos no relacionales: no estan estructurados fijamente, la informacion que se contiene no depende de otra cosa
+> tamaño
+    - mi dato va a pesar un giga o un petabyte? es importante
+> comunicacion
+    - como hago para que este dato pueda ser usado por otras personas
+> escalamiento
+    - este dato es estatico? cuanto tiempo sera estatico? puede crecer?
+    - las cosas que se construyan sobre este dato sera algo nuevo o solo una columna mas??
+
+3 tipos de almacenamiento de datos
+1. Almacenamiento en texto plano:
+tomar datos y meterlos en un ascii
+es un formato simple de leer, es un estandar de comunicacion de sistemas que no son tan masivos
+cierta estructura medianamente coherente, filas = registro, columnas = campos de registros
+cualquier aplicacion puede leerlos, cualquier persona puede abrirlo en un computador
+
+
+
+

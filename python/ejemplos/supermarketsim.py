@@ -21,6 +21,6 @@ class Validador(Persona):
             self.validtime -= 1 
             dt -= 1
         return dt
-
+    
 
     
