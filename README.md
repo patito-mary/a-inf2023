@@ -26,8 +26,8 @@
 
 ## Descripcion
 
-En este repositorio se recopilan diferentes tareas, ejercicios y apuntes personales del curso de __herramientas computacionales para la astroinformatica__ impartido por la Universidad de la Serena, para el programa de magister/doctorado como electivo; durante el segundo semestre del 2023. \\
-A lo largo del curso hemos tocado los topicos desde generacion de algoritmos, hasta la etica detras de los codigos publicos y respositorios como este, o de datos privados. Tambien hemos pensado si vivimos en una simulacion (desde el punto de vista de la autora diria que si) y compartido cafecito con galletas dulces y club social gracias a Belen. \\
+En este repositorio se recopilan diferentes tareas, ejercicios y apuntes personales del curso de __herramientas computacionales para la astroinformatica__ impartido por la Universidad de la Serena, para el programa de magister/doctorado como electivo; durante el segundo semestre del 2023. \
+A lo largo del curso hemos tocado los topicos desde generacion de algoritmos, hasta la etica detras de los codigos publicos y respositorios como este, o de datos privados. Tambien hemos pensado si vivimos en una simulacion (desde el punto de vista de la autora diria que si) y compartido cafecito con galletas dulces y club social gracias a Belen. \
 El uso de git y de github como herramientas aprendidas en el curso han servido para compartir este repositorio y tambien para desarrollar un flujo ordenado de trabajo en general, y ademas para el proyecto final del curso, que se puede encontrar en [ainf-proyect](https://github.com/patito-mary/ainfproyect).
 
 <!--- Provide description of the model   
@@ -50,13 +50,13 @@ El uso de git y de github como herramientas aprendidas en el curso han servido p
 Cada una de las siguientes carpetas cuenta con apuntes y ejemplos de los respectivos lenguajes de programacion usados o preferidos.
 <!--- Provide a table of contents to help readers navigate the README  
 -->
-Carpetas: \\
-- C \\
-- dataenginnering \\
-- proyectofinal \\
-- python \\
+Carpetas: \
+- C \
+- dataenginnering \
+- proyectofinal \
+- python \
 
-pd. En la carpeta de python se encuentra un mapa conceptual con definiciones importantes y relacion entre las diferentes palabras usadas en el marco de la __programacion orientada a objetos__. \\
+pd. En la carpeta de python se encuentra un mapa conceptual con definiciones importantes y relacion entre las diferentes palabras usadas en el marco de la __programacion orientada a objetos__. \
 
 
 
