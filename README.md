@@ -53,6 +53,7 @@ El uso de git y de github como herramientas aprendidas en el curso han servido p
 
 ## Estructura
 Cada una de las siguientes carpetas cuenta con apuntes y ejemplos de los respectivos lenguajes de programacion usados o preferidos.
+Ademas cada archivo cuenta con la fecha dentro de su nombre, en formato diames.txt o mesdia.txt (pronto sera corregido para facil lectura)
 <!--- Provide a table of contents to help readers navigate the README  
 -->
 Carpetas: 
