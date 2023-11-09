@@ -18,7 +18,7 @@ Los archivos de texto son vectores unidimensionales, que usan el `\n, \t` para h
 ### CATEDRA
 
 # Parseo
----------
+---
 -split: subentiende separadores en los campos que tienen string, pero se puede usar el `sep = '\n' ` por ejemplo
 
 Es mucho mas facil si usamos `numpy` para cargar los datos de manera que sean _float_ . Pero esto tiene una restriccion con respecto a acceder a los datos por __columnas__
@@ -26,14 +26,16 @@ Es mucho mas facil si usamos `numpy` para cargar los datos de manera que sean _f
 > columnas: campos
 > filas: registros
 
--unpack: toma un registro y lo desempaqueta, sirve para tratar columnas
+- unpack: toma un registro y lo desempaqueta, sirve para tratar columnas
 
 # Pandas
----------
+---
 Subentiende los tipos de datos, es una ventaja sobre `numpy`
 
 `Pandas` es un cañon, por ende para cosas mas pequeñas es mejor usar `numpy`
 
 `pandas` tambien permite utilizar iteradores para procesar archivos de texto cuya cantidad de datos es restrictiva segun los recursos computacionales y hacemos el proceso por partes usando los __chunks__
+
+
 
 
