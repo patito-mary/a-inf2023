@@ -1,0 +1,7 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"supermarketsim.Persona" [color="black", fontcolor="black", label=<{Persona|items : int<br ALIGN="LEFT"/>tlocal : int<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"supermarketsim.Validador" [color="black", fontcolor="black", label=<{Validador|items<br ALIGN="LEFT"/>validscale : int<br ALIGN="LEFT"/>validtime : int<br ALIGN="LEFT"/>|get_items(nitems)<br ALIGN="LEFT"/>validar(dt)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"supermarketsim.Validador" -> "supermarketsim.Persona" [arrowhead="empty", arrowtail="none"];
+}
