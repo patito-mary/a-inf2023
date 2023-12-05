@@ -23,7 +23,7 @@
     > Bmax  
     Entre salida de snapshot y otro, hay pequeños saltitos y derrepente se saca el snapshot pero no es que la simulacion no corra  
     Ventajas:  
-    > Eficiendcia: PP~O($N^2$) vs TM~NLog(N)  
+    > Eficiendcia: PP ~ O($N^2$) vs TM ~ NLog(N)  
     > Utilizar los centros de masa puede generar errores en los calculos de fuerza  
     > __Expansiones multipolares__ para evaluar mejor la masa dentro de la celda  
 - Metodo para calcular fuerzas: Particle Mesh (PM)  
