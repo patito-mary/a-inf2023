@@ -3,9 +3,14 @@
 
 
     Division en subunidades o paquetes, de tal forma que sea mas facil calcular las fuerzas sobre un lugar.
+
+
     $F = - \sum \frac{Gm_i m_j}{{(r_i-r_j)}^3}(r_i - r_j) $
     Octal tree en 3D.
+
+
     ![](arbol.jpg)
+
     Como decido el recorrido del arbol en funcion de una particula?
     Parametro de apertura: $\frac{L_2}{D_2} > \theta$ 
                             Todo lo que caiga dentro del angulo solido puede ser considerado como una unidad.
@@ -25,7 +30,9 @@
 
 
     El potencial gravitacional se contruye por 'mesh' usando la ecuacion de poisson:
+
         $\nabla^2 \Phi = 4\piG\rho $ se pasa a espacio de fourier para poder resolverla de manera mas inmediata usando la transformada como solucion a la integral, asumiendo una densidad __constante__ para el pozo de potencial
+
     Las grillas son fijas, pero se pueden superponer 
     Las grillas se pueden usar 
     * Gadget: smooth particle hydrodinamics.
@@ -40,6 +47,7 @@
 
     P3M: Suma directa para particulas cercanas,     
     me falto una jaja lol
+
 - Metodo de integracion de orbitas
 
 
@@ -57,11 +65,17 @@
     Metodo del punto medio: Se calcula el metodo de euler 2 veces, de principio a medio y de medio a fin, por ende cuesta computacionalmente un poco mas pero es infinitamente mejor. Y luego se traza la trayectoria de principio a fin
     Metodo de Leapfrog: Calcula la velocidad paso a paso, usando un punto medio entre dos lugares y luego en pasos completos para compara los resultados y llegar a la velocidad final
 
-        ![](ranita.png)
+    ![](ranita.png)
+
+
         Tiene muy buenas propiedades en funcion de su reversibilidad en el tiempo, conserva el __momento angular__ de manera exacta, y hay otro que no anote
 
 
     Metodo de Runge-Kutta: Metodo de aproximacion de cuarto orden, por ende es mucho mas complejo pero con mejor aproximaciones, considera pendientes en 4 lugares distintos
+
+    
         $y_{i+1} = y_i + \frac{h}{6}(k_1 + 2k_2+ 2k_3 + k+4) + O(h^5)$ 
+
+
         El error es el $O(h^5)$. Pero no es simplectico
         __(espacio vectorial simpléctico a un espacio vectorial junto con una forma bilineal antisimétrica no degenerada, es decir, fisicamente se mantienen las condiciones de conservacion de energia)__ 
