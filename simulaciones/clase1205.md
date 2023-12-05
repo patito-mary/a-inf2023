@@ -6,10 +6,12 @@
 
 
     $F = - \sum \frac{Gm_i m_j}{{(r_i-r_j)}^3}(r_i - r_j) $
-    Octal tree en 3D.
+    Octal tree en 3D.  
 
 
-<image src='arbol.jpg' alt='imagen de arbol'>
+    <image src='arbol.jpg' alt='imagen de arbol'>  
+
+
 
     Como decido el recorrido del arbol en funcion de una particula?
     Parametro de apertura: $\frac{L_2}{D_2} > \theta$ 
@@ -68,7 +70,7 @@
     * Metodo del punto medio: Se calcula el metodo de euler 2 veces, de principio a medio y de medio a fin, por ende cuesta computacionalmente un poco mas pero es infinitamente mejor. Y luego se traza la trayectoria de principio a fin  
     * Metodo de Leapfrog: Calcula la velocidad paso a paso, usando un punto medio entre dos lugares y luego en pasos completos para compara los resultados y llegar a la velocidad final  
 
-<image src='ranita.jpg' alt='ranita'>
+    <image src='ranita.jpg' alt='ranita'>  
 
 
     Tiene muy buenas propiedades en funcion de su reversibilidad en el tiempo, conserva el __momento angular__ de manera exacta, y hay otro que no anote
